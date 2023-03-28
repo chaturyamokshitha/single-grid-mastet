@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    margin:3em 1em 3em 1em;
+}
+.bottom{
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(176, 64%, 50%);
+    color: hsl(204, 43%, 93%);
+    padding:1em 4em 1em 1em;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(176, 62%, 43%);
+    padding:1em 1em 1em 1em;
+    color:hsl(204, 43%, 93%);
+}
+button{
+    height:50px;
+    width:250px;
+    text-align: center;
+    background-color: hsl(71, 73%, 54%);
+    color:#fff;
+    border-radius: 8px;
+    border:1px solid hsl(71, 73%, 54%);
+    margin:1em 1em 1em 0em;
+}
+b{
+    font-size: 35px;
+    padding-right: 0.5em;
+}
+.upper{
+    display:flex;
+    flex-direction: column;
+    padding:1em 1em 1em 1em;
+    background-color: #fff;
+}
+.middle h2{
+    font-size: 18px;
+}
+.middle p{
+    margin:1em 0px 1em 0px;
+}
+.upper h1{
+    color: hsl(176, 64%, 50%);
+    font-size: 18px;
+}
+.upper span{
+    color: hsl(71, 73%, 54%);
+    padding:0px 2em 0px 0em;
+}
+.upper p{
+    color: hsl(218, 22%, 67%);
+    line-height: 2;
+}
+@media(min-width:500px){
+    .container{
+        margin:100px 400px 100px 400px ;
+    }
+    .desktop-bottom{
+        display: flex;
+        flex-direction: row;
+    }
+    .upper{
+        width:529px;
+        padding:1em 2em 1em 2em;
+    }
+    .bottom{
+        padding:1em 2em 1em 2em;
+        width:200px;
+    }
+    .middle{
+        padding:1em 2em 1em 2em;
+    }
+    .upper h1{
+        padding:1em 0em 0em 0em;
+
+    }
+    .upper p{
+        margin:1em 0px 1em 0em;
+        line-height: 1.6;
+    }
+}
